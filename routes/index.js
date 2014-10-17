@@ -16,7 +16,9 @@ router.post('/pushover-notification', function(req, res) {
 			message: "Laundry cycle completed for: " + req.body.GreenBeanify.modelNumber + ", " + req.body.GreenBeanify.serialNumber,
 			title: "GreenBeanify end of cycle notification",
 			sound: 'magic',
-			priority: 2  // set priority 2 to require acknowledgement 
+			priority: 2    // set priority 2 to require acknowledgement 
+			expire: 3600 , // Expire after 1 hour
+			retry: 60      // Retry every 60 seconds until acknowledged
 		}
 
 		p.send(msg, function(err, result) {
@@ -25,6 +27,7 @@ router.post('/pushover-notification', function(req, res) {
 			}
 
 			console.log( result );
+			res.send("Notification sent");
 		});
 	} else {
 		console.log("Ignoring POST as it isn't a laundry.endOfCycle");
