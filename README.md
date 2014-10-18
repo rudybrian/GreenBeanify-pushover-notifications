@@ -7,7 +7,7 @@ Reference implementation for [GreenBeanify](https://github.com/rudybrian/GreenBe
 - On the host you wish to run GreenBeanify-pushover-notifications on
   - Install Node.js
   - Install npm
-  - *npm install brudy/GreenBeanify-pushover-notifications*
+  - *npm install rudybrian/GreenBeanify-pushover-notifications*
   - cd into your GreenBeanify-pushover-notifications directory
   - Modify the following values on line 6 and 7 of routes/index.js
     - Replace *PUSHOVER_USER* with your Pushover user key
