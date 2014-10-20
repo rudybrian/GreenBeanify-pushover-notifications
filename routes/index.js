@@ -31,6 +31,7 @@ router.post('/pushover-notification', function(req, res) {
 		});
 	} else {
 		console.log("Ignoring POST as it isn't a laundry.endOfCycle");
+		res.send("Not an end of cycle message, ignoring...");
 	}
 });
 
