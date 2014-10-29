@@ -4,7 +4,8 @@ GreenBeanify-pushover-notifications
 Reference implementation for [GreenBeanify](https://github.com/rudybrian/GreenBeanify) POST notifications. Sends [Pushover](https://pushover.net) notifications on end of cycle for your Green Bean equipped GE washing machine or dryer.
 
 ##Installation and Demo Video
-[![Installation and Demo Video](http://img.youtube.com/vi/XGOxuntGzQk/0.jpg)](https://www.youtube.com/watch?v=XGOxuntGzQk)
+[![Installation Video](http://img.youtube.com/vi/AjoRDDi2Anw/0.jpg)](https://www.youtube.com/watch?v=AjoRDDi2Anw)
+[![Demo Video](http://img.youtube.com/vi/jxN31WzsJAk/0.jpg)](https://www.youtube.com/watch?v=jxN31WzsJAk)
 
 ##Installation Instructions
 - On the host you wish to run GreenBeanify-pushover-notifications on
